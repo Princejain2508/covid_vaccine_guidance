@@ -6,9 +6,7 @@ const App = () => {
   return (
     <div className="App">
       <div className="parent">
-        <div className="header">
-          <h1>Check your nearest vaccination center and slots availability</h1>
-        </div>
+        
         <SearchForm />
         {/* <div className="footer">
           Designed and Devloped by

@@ -107,6 +107,10 @@ const setHospitals = () =>{
   };
   return (
     <div className="searchForm">
+      <div className="searchForm__container">
+        <div className="header">
+          <h1>Check your nearest vaccination center and slots availability</h1>
+        </div>
       <div className="searchForm__selectSearch">
         <button
           className={searchType === "PinCode" ? "selected" : null}
@@ -168,7 +172,7 @@ const setHospitals = () =>{
             className="searchForm__selectState"
             value={selectedState}
             onChange={(e) => callDictircsAPi(e)}
-            style={{ width: "250px" }}
+            
           >
             <option value="Select State" selected disabled>
               Select State
@@ -192,7 +196,6 @@ const setHospitals = () =>{
                 e.target.childNodes[e.target.selectedIndex].getAttribute("id")
               );
             }}
-            style={{ width: "250px" }}
           >
             <option value="Select Distict" selected disabled>
               Select Distirct
@@ -225,7 +228,7 @@ const setHospitals = () =>{
           </div>
         </div>
       ) : null}
-
+        </div>
       <div className="searchForm__error">{error}</div>
 
       <RenderHospitals
