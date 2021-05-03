@@ -1,0 +1,128 @@
+.searchForm {
+  height: 100%;
+  width: 100%;
+}
+.searchForm__selectSearch {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px black;
+  border-radius: 20px;
+  width: 50%;
+  margin: 10px auto;
+}
+@media only screen and (max-width: 750px) {
+  .searchForm__searchDateButton {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .searchForm__selectSearch {
+    flex-direction: column;
+    border: none;
+  }
+  .searchForm__buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.searchForm__selectSearch button {
+  line-height: 2 !important;
+  width: 50%;
+  padding: 5px 70px;
+  border-style: none;
+  border-radius: 20px;
+}
+
+.searchForm__search {
+  margin: 20px auto;
+}
+
+.searchForm__search input {
+  width: 48%;
+  line-height: 1.8;
+  border-color: #e4e9ff;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.searchForm__searchDateButton {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 48%;
+  margin: 10px auto;
+}
+
+.searchForm__searchDate {
+  width: 50%;
+  float: left;
+  line-height: 1.8;
+}
+
+.searchForm__searchButton {
+  padding: 5px 25px;
+  border-radius: 10px;
+}
+
+.searchForm__searchButton:hover {
+  cursor: pointer;
+  background-color: #3a69ff;
+  color: white;
+  z-index: 10;
+}
+
+.searchForm__searchDistrict {
+  margin: 20px auto;
+  width: 55%;
+}
+
+.searchForm__18Button {
+  margin: 0px auto;
+  padding: 5px;
+  border-radius: 50%;
+  width: 20%;
+}
+
+.searchForm__searchDistrict select {
+  width: 48%;
+  border-color: #e4e9ff;
+  border-radius: 10px;
+  font-weight: 500;
+  padding: 7px;
+  font-weight: 500;
+  margin: 0 15px;
+}
+
+.searchForm__buttonContainer {
+  padding: 5px 10px;
+  display: flex;
+  margin: 15px auto;
+}
+
+.searchForm__18Button2 {
+  margin-left: 7em;
+  padding: 5px;
+  border-radius: 50%;
+  float: left;
+  width: 20%;
+}
+
+.searchForm__searchDistrictButton {
+  padding: 5px 25px;
+  margin-left: 10em;
+  border-radius: 10px;
+  width: 30%;
+}
+
+.searchForm__searchDistrictButton:hover {
+  cursor: pointer;
+  background-color: #3a69ff;
+  color: white;
+  z-index: 10;
+}
+
+.searchForm__error {
+  color: red;
+}

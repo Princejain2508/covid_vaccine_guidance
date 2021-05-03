@@ -1,0 +1,58 @@
+.list_parent {
+  scroll-behavior: smooth;
+  height: 80%;
+  width: 80%;
+  margin: 20px auto;
+  margin-top:50px;
+}
+
+.renderHospitals__heading{
+    display:flex;
+    font-weight: 700;
+    font-size : 25px;
+}
+
+.hospitalsName{
+    flex:0.4;
+}
+
+.dosesAvailable{
+    flex:0.2;
+}
+
+.date{
+    flex: 0.2;
+}
+
+.ageGroups{
+    flex:0.2;
+}
+
+.render__Hospital{
+    display:flex;
+    margin-top: 20px;
+}
+
+.hospitalName{
+    flex:0.4;
+}
+.doseAvailableInHospital{
+    flex:0.2;
+}
+.date_Searched{
+    flex:0.2;
+}
+.ageGroup{
+    flex:0.2;
+}
+
+.hospitalName h3{
+    margin-top:0px !important;
+    margin-bottom: 0px !important;
+}
+
+.hospital_additional{
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
