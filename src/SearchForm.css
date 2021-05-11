@@ -10,22 +10,6 @@
   width: 50%;
   margin: 10px auto;
 }
-@media only screen and (max-width: 750px) {
-  .searchForm__searchDateButton {
-    display: flex;
-    flex-direction: column;
-  }
-}
-@media only screen and (max-width: 500px) {
-  .searchForm__selectSearch {
-    flex-direction: column;
-    border: none;
-  }
-  .searchForm__buttonContainer {
-    display: flex;
-    flex-direction: column;
-  }
-}
 
 .searchForm__selectSearch button {
   line-height: 2 !important;
@@ -138,4 +122,42 @@
   font-weight: 600;
   width: 55%;
   margin: 20px auto;
+}
+
+@media only screen and (max-width: 750px) {
+  .searchForm__searchDateButton {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchForm__18Button{
+    width:30%;
+  }
+  .searchForm__18Button2{
+    width:30%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .searchForm__selectSearch {
+    flex-direction: column;
+    border: none;
+  }
+  .searchForm__buttonContainer {
+    display: flex;
+    flex-direction: column;
+  }
+  .searchForm__searchButton{
+    width:60%;
+  }
+  .searchForm__searchDistrictButton{
+    width:60%;
+  }
+}
+
+@media only screen and (max-width: 250px){
+  .searchForm__18Button{
+    width:50%;
+  }
+  .searchForm__18Button2{
+    width:50%;
+  }
 }
