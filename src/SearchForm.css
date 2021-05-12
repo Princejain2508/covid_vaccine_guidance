@@ -160,4 +160,10 @@
   .searchForm__18Button2{
     width:50%;
   }
+  .searchForm__searchButton{
+    width:90%;
+  }
+  .searchForm__searchDistrictButton{
+    width:90%;
+  }
 }
